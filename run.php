@@ -10,7 +10,7 @@ $omegle = new ApiRequest();
 // $omegle->setProxy('http://username:password@ip:port');  // Set Proxy username:password@ip:port
 $omegle->generateUserAgent();
 $randId = $omegle->setCc();
-$omegle->setTopics('["malappuram", "kerala"]'); // Set topics
+// $omegle->setTopics('["malappuram", "kerala"]'); // Set topics
 $start = $omegle->getServer();
 echo json_encode($start);
 
