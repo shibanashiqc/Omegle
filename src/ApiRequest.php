@@ -61,7 +61,7 @@ class ApiRequest {
         return $response;
     }
     
-    public function getSend($clientID, $msg) {
+    public function sendMsg($clientID, $msg) {
         $response = $this->api_url . 'send';
         $response = $this->request($response, 'POST', ['id' => $clientID, 'msg' => $msg]);
         return $response;

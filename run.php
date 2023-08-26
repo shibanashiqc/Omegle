@@ -29,7 +29,7 @@ if($omegle->getEvents() == null ) {
 }
 
 echo "\n";
-echo $msg = $omegle->getSend($clientId, 'Hi there! follow me on insta @al33na55');
+echo $msg = $omegle->sendMsg($clientId, 'Hi there! follow me on insta @al33na55');
 echo "\n";
 
 echo $omegle->getTyping();
