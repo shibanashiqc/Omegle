@@ -7,7 +7,7 @@ use Shibanashiqc\Omegle\ApiRequest;
 while(true) :
     
 $omegle = new ApiRequest();
-$omegle->setProxy('http://snzxneyl-rotate:rq1yubfrztnw@p.webshare.io:80');  // Set Proxy username:password@ip:port
+// $omegle->setProxy('http://snzxneyl-rotate:rq1yubfrztnw@p.webshare.io:80');  // Set Proxy username:password@ip:port
 $omegle->generateUserAgent();
 $randId = $omegle->setCc();
 // $omegle->setTopics('["valanchery"]'); // Set topics
