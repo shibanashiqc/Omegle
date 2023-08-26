@@ -1,0 +1,21 @@
+{
+    "name": "shibanashiqc/omegle",
+    "description": "Omegle APIS",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Shibanashiqc\\Omegle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shiban Ashiq",
+            "email": "shibanashiq743@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^10.20",
+        "ext-curl": "*"
+    }
+}
